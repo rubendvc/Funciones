@@ -1,0 +1,11 @@
+
+
+pi = 3.1416
+
+def circuferencia(radio):
+    circunferencia = 2 * pi * radio
+    return circunferencia
+
+radio =int(input("ingrese el radio del circulo: "))
+resultado = circuferencia(radio)
+print(f"la circunferencia del circulo es : {resultado}")
