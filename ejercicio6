@@ -1,0 +1,11 @@
+
+def true_false(valor):
+    if valor %2==0:
+        print("el valor es par ")
+        return True
+    else:
+        print("el valor es impar")
+        return False
+    
+valor = int (input("ingrese un valor: "))
+resultado = true_false(valor)   
