@@ -1,0 +1,10 @@
+
+def area_cua(lado):
+    area = lado * lado 
+    return area
+
+lado = int (input("ingrese el lado del cuadrado : "))
+
+resultado = area_cua(lado)
+print(f"el area del cuadrado es : {resultado}")
+# print (area) #con este codigo se puede observar que la variable area solo funciona dentro de la funcion area_cua.
